@@ -11,3 +11,6 @@ For MavLink decoding, I've used this documentation :
 And this library :
 - https://discuss.ardupilot.org/uploads/default/original/2X/0/064748b43308485aa9bd0d86fb91d74e17ed8c2a.zip
 
+For my purpose I chose an ESP8266 sold with a small PCB to support a 3.3 V regulator to reduce the 5V available on my drone to 3.3V (watch to remove the 0 ohm resistor which a shunt used if the regulator is not weld :
+
+![ESP8266](ReadMeImages/ESP8266-12-5V.png)
