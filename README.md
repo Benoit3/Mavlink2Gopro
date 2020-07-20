@@ -1,6 +1,8 @@
 # Mavlink2Gopro
 Is an Interface to control Gopro Hero 4 Silver Camera using Mavlink data stream issued by a drone flight controller.
 
+![Mavlin2Gopro_general_schematic](ReadMeImages/Mavlink2Gopro_general_schematic.png)
+
 For that I use an ESP8266-12 board of which Rx input is connected to the MavLink Tx output of the flight controller. The software build with the arduino environnement, analyse the MavLibk data stream to extract the Remote Control channel 8 values, and issue needed http requests after connection to the GoPro Wifi hotspot.
 
 For the Gopro http commands, I've used this documentation : https://github.com/KonradIT/goprowifihack/blob/master/HERO4/WifiCommands.md
